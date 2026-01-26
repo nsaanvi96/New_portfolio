@@ -6,20 +6,22 @@ export default function Skills() {
   useScrollReveal(); // ← hook call — makes elements fade/float in when scrolled into view
 
   const skillCategories = [
-    {
-      title: "Frontend",
-      icon: <Layout size={28} />,
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML5", "CSS3", "JavaScript (ES6+)", "Redux / Zustand"],
-    },
-    {
-      title: "Backend & Tools",
-      icon: <Server size={28} />,
-      skills: ["Node.js", "Express", "REST APIs", "PostgreSQL", "MongoDB", "Git / GitHub", "Vite", "Webpack"],
-    },
-    {
-      title: "Other",
+     {
+      title: "Foundational Set",
       icon: <Cpu size={28} />,
-      skills: ["Responsive Design", "UI/UX Principles", "Performance Optimization", "Accessibility (a11y)", "Testing (Jest, React Testing Library)", "CI/CD Basics"],
+      skills: ["Networking and Infrastructure", "Operating Systems", "Web & Aplication Security", "Enumeration"],
+    },
+    
+   
+    {
+      title: "Tools",
+      icon: <Layout size={28} />,
+      skills: ["Kali Linux", "Metasploit", "Wireshark", "BloodHound", "Nmap", "PowerView", "Mimikatz","Burp Suite"],
+    },
+    {
+      title: "Backend",
+      icon: <Server size={28} />,
+      skills: ["Python", "Flask", "MySQL", "MongoDB", "Git / GitHub"],
     },
   ];
 

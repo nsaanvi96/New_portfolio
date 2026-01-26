@@ -12,7 +12,7 @@ export default function Hero() {
         <p className="hero-title">
           Security Enthusiast & Curious Coder
         </p>
-
+        
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">
             View Projects

@@ -3,28 +3,36 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React, TypeScript, Vite, and Tailwind CSS. Features dark mode, smooth animations, and responsive design.",
-    tech: ["React", "TypeScript", "Vite", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
+    title: "True Trace",
+    description: "Phishing and Deepfake features | Ongoing Project. Chrome Extension for Deepfake analysis And Phishing Links Analysis",
+    tech: ["Python", "JavaScript", "CSS", "HTML"],
+    github: "https://github.com/nsaanvi96/TrueTrace.git",
     live: "https://yourportfolio.com",
-    image: "/projects/portfolio.jpg", // replace with your actual image path
+    image: "src\\assets\\images\\True_Trace.jpeg", // replace with your actual image path
   },
   {
-    title: "E-Commerce Dashboard",
-    description: "Admin dashboard for managing products, orders, and users. Includes charts, authentication, and real-time updates.",
-    tech: ["Next.js", "Tailwind CSS", "Chart.js", "Supabase"],
-    github: "https://github.com/yourusername/ecommerce-dashboard",
+    title: "Blood-Aid",
+    description: "Emergency Blood Donation app.Created a simulation of blockchain in a blood donation app which can be used with security for high end emergencies.",
+    tech: ["Python", "Flask", "MySQL", "HTML", "CSS" , "JavaScript"],
+    github: "https://github.com/nsaanvi96/CodeBlooded_AB2_PS7.git",
     live: "https://dashboard-demo.com",
-    image: "/projects/dashboard.jpg",
+    image: "src\\assets\\images\\Blood_Aid.jpeg",
   },
   {
-    title: "Task Management App",
-    description: "Kanban-style task tracker with drag & drop, user auth, and local storage persistence.",
-    tech: ["React", "Redux Toolkit", "Tailwind CSS", "dnd-kit"],
-    github: "https://github.com/yourusername/task-manager",
+    title: "Keylogger",
+    description: "Logs the Keystrokes. A system that logs each key stroke and saves it.",
+    tech: ["Python","pynput","Fernet"],
+    github: "https://github.com/nsaanvi96/KeyLogger.git",
+    live: "https://dashboard-demo.com",
+    image: "src\\assets\\images\\Keylr.jpeg",
+  },
+  {
+    title: "Network-Analyser",
+    description: "Analysis of network. Very lightweight and OSINT/security-oriented.",
+    tech: ["Python","scapy","socket"],
+    github: "https://github.com/nsaanvi96/Network_Analyser.git",
     live: "https://task-app-demo.vercel.app",
-    image: "/projects/task-manager.jpg",
+    image: "src\\assets\\images\\NA.jpeg",
   },
   // Add more projects as needed
 ];
