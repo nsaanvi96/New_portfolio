@@ -8,7 +8,7 @@ const projects = [
     tech: ["Python", "JavaScript", "CSS", "HTML"],
     github: "https://github.com/nsaanvi96/TrueTrace.git",
     live: "https://yourportfolio.com",
-    image: "src\\assets\\images\\True_Trace.jpeg", // replace with your actual image path
+    image: "src\assets\images\True_Trace.jpeg", // replace with your actual image path
   },
   {
     title: "Blood-Aid",
@@ -16,7 +16,7 @@ const projects = [
     tech: ["Python", "Flask", "MySQL", "HTML", "CSS" , "JavaScript"],
     github: "https://github.com/nsaanvi96/CodeBlooded_AB2_PS7.git",
     live: "https://dashboard-demo.com",
-    image: "src\\assets\\images\\Blood_Aid.jpeg",
+    image: "src\assets\images\Blood_Aid.jpeg",
   },
   {
     title: "Keylogger",
@@ -24,7 +24,7 @@ const projects = [
     tech: ["Python","pynput","Fernet"],
     github: "https://github.com/nsaanvi96/KeyLogger.git",
     live: "https://dashboard-demo.com",
-    image: "src\\assets\\images\\Keylr.jpeg",
+    image: "src\assets\images\Keylr.jpeg",
   },
   {
     title: "Network-Analyser",
@@ -32,7 +32,7 @@ const projects = [
     tech: ["Python","scapy","socket"],
     github: "https://github.com/nsaanvi96/Network_Analyser.git",
     live: "https://task-app-demo.vercel.app",
-    image: "src\\assets\\images\\NA.jpeg",
+    image: "src\assets\images\NA.jpeg",
   },
   // Add more projects as needed
 ];
