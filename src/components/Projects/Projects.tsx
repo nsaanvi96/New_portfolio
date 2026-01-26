@@ -1,40 +1,45 @@
 // src/components/Projects/Projects.tsx
 import { Github, ExternalLink } from 'lucide-react';
 
+// Import your images here (Vite will handle bundling)
+import TrueTraceImg from '../../assets/images/True_Trace.jpeg';
+import BloodAidImg from '../../assets/images/Blood_Aid.jpeg';
+import KeylrImg from '../../assets/images/Keylr.jpeg';
+import NAImg from '../../assets/images/NA.jpeg';
+
 const projects = [
   {
     title: "True Trace",
     description: "Phishing and Deepfake features | Ongoing Project. Chrome Extension for Deepfake analysis And Phishing Links Analysis",
     tech: ["Python", "JavaScript", "CSS", "HTML"],
     github: "https://github.com/nsaanvi96/TrueTrace.git",
-    live: "https://yourportfolio.com",
-    image: "src\assets\images\True_Trace.jpeg", // replace with your actual image path
+    live: "", // ← replace with real live link if available
+    image: TrueTraceImg,
   },
   {
     title: "Blood-Aid",
-    description: "Emergency Blood Donation app.Created a simulation of blockchain in a blood donation app which can be used with security for high end emergencies.",
-    tech: ["Python", "Flask", "MySQL", "HTML", "CSS" , "JavaScript"],
+    description: "Emergency Blood Donation app. Created a simulation of blockchain in a blood donation app which can be used with security for high end emergencies.",
+    tech: ["Python", "Flask", "MySQL", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/nsaanvi96/CodeBlooded_AB2_PS7.git",
-    live: "https://dashboard-demo.com",
-    image: "src\assets\images\Blood_Aid.jpeg",
+    live: "", // ← replace with real live link if available
+    image: BloodAidImg,
   },
   {
     title: "Keylogger",
     description: "Logs the Keystrokes. A system that logs each key stroke and saves it.",
-    tech: ["Python","pynput","Fernet"],
+    tech: ["Python", "pynput", "Fernet"],
     github: "https://github.com/nsaanvi96/KeyLogger.git",
-    live: "https://dashboard-demo.com",
-    image: "src\assets\images\Keylr.jpeg",
+    live: "", // ← replace with real live link if available
+    image: KeylrImg,
   },
   {
     title: "Network-Analyser",
     description: "Analysis of network. Very lightweight and OSINT/security-oriented.",
-    tech: ["Python","scapy","socket"],
+    tech: ["Python", "scapy", "socket"],
     github: "https://github.com/nsaanvi96/Network_Analyser.git",
-    live: "https://task-app-demo.vercel.app",
-    image: "src\assets\images\NA.jpeg",
+    live: "", // ← replace with real live link if available
+    image: NAImg,
   },
-  // Add more projects as needed
 ];
 
 export default function Projects() {
@@ -43,13 +48,14 @@ export default function Projects() {
       <h2 className="section-title">Projects</h2>
 
       <div className="projects-grid">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div key={project.title} className="project-card">
             <div className="project-image-wrapper">
               <img
                 src={project.image}
                 alt={project.title}
                 className="project-image"
+                loading="lazy" // improves performance on slow connections
               />
             </div>
 
@@ -77,6 +83,7 @@ export default function Projects() {
                     <span>Code</span>
                   </a>
                 )}
+
                 {project.live && (
                   <a
                     href={project.live}
