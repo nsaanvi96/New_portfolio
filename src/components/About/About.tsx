@@ -24,12 +24,12 @@ export default function About() {
           </p>
 
           <p className="animate-on-scroll" style={{ transitionDelay: '0.4s' }}>
-            I specialize in <strong>Pyhton</strong>, <strong>Network Protocols</strong>, and <strong>Operating Systems</strong>,
+            I specialize in <strong>Python</strong>, <strong>Network Protocols</strong>, and <strong>Operating Systems</strong>,
             constantly exploring new technologies and techniques to enhance my skills and stay ahead in the ever-evolving field of cybersecurity.
           </p>
 
           <p className="animate-on-scroll" style={{ transitionDelay: '0.6s' }}>
-             I am actively exploring and building foundational knowledge in Offensive Security, focusing on Penetration Testing Fundamentals and Vulnerability Assessment.
+            I am actively exploring and building foundational knowledge in Offensive Security, focusing on Penetration Testing Fundamentals and Vulnerability Assessment.
           </p>
 
           <p className="animate-on-scroll" style={{ transitionDelay: '0.8s' }}>
