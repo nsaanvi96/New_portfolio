@@ -6,6 +6,8 @@ import TrueTraceImg from '../../assets/images/True_Trace.jpeg';
 import BloodAidImg from '../../assets/images/Blood_Aid.jpeg';
 import KeylrImg from '../../assets/images/Keylr.jpeg';
 import NAImg from '../../assets/images/NA.jpeg';
+import DeepVoiceImg from '../../assets/images/image.png';
+import SecureVaultImg from '../../assets/images/image1.png';
 
 const projects = [
   {
@@ -16,6 +18,23 @@ const projects = [
     live: "", // ← replace with real live link if available
     image: TrueTraceImg,
   },
+  {
+    title: "Deep-Voice Shield",
+    description: "A dual-layer cyber-defense suite featuring a deep-learning model for real-time deepfake voice detection and a neural-network-powered phishing link analyzer. Includes a forensic dashboard and a Chrome extension for active background protection.",
+    tech: ["Python", "Flask", "PyTorch", "React", "Chrome API", "Librosa"],
+    github: "https://github.com/nsaanvi96/cep2.git",
+    live: "", // ← replace with real live link if available
+    image: DeepVoiceImg,
+  },
+  {
+    title: "Secure-File Vault",
+    description: "A high-security Java-based vault for sensitive files, utilizing AES-256 encryption and PBKDF2 password hashing. Features a dual-interface support (CLI and Swing UI) with a local manifest-driven storage system and zero external dependencies for maximum privacy.",
+    tech: ["Java", "Swing", "AES-256", "PBKDF2", "Cryptography API", "Maven"],
+    github: "https://github.com/nsaanvi96/java_project.git",
+    live: "", // ← replace with real live link if available
+    image: SecureVaultImg, // Ensure you import this image in your Projects.tsx
+  },
+
   {
     title: "Blood-Aid",
     description: "Emergency Blood Donation app. Created a simulation of blockchain in a blood donation app which can be used with security for high end emergencies.",
